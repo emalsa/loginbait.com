@@ -1,5 +1,4 @@
 // Burger menus
-console.log('hello')
 document.addEventListener('DOMContentLoaded', function () {
     // open
     const burger = document.querySelectorAll('.navbar-burger');
@@ -44,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (link.length) {
         for (var i = 0; i < link.length; i++) {
             link[i].addEventListener('click', function () {
-                console.log('click')
                 for (var j = 0; j < menu.length; j++) {
                     menu[j].classList.add('hidden');
                 }
