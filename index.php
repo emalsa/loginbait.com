@@ -118,7 +118,7 @@
                                     <a href="#pricing" class="close-menu group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
                                         <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
                                         <div class="py-2 px-5 bg-white rounded-lg">
-                                            <p  class="relative z-10">Buy now</p>
+                                            <p class="relative z-10">Buy now</p>
                                         </div>
                                     </a>
                                 </div>
@@ -138,7 +138,8 @@
                             <a href="#pricing" class="close-menu font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</a>
                         </div>
                         <div class="w-full lg:w-auto p-3">
-                            <a href="#how-it-works" class="close-menu font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it works</a>
+                            <a href="#how-it-works" class="close-menu font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it
+                                works</a>
                         </div>
                     </div>
                     <div class="lg:max-w-md">
@@ -469,10 +470,13 @@
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">Yearly</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$14 per year</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
-                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
-                            <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <a href="https://buy.stripe.com/9AQbM1dde6hhgq47ss" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
-                        </button>
+
+                        <a href="https://buy.stripe.com/9AQbM1dde6hhgq47ss" target="_blank">
+                            <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
+                                <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
+                                <p class="relative z-10" contenteditable="false">Buy now</p>
+                            </button>
+                        </a>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
                     </div>
@@ -482,10 +486,12 @@
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
-                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
-                            <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
-                        </button>
+                        <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" target="_blank">
+                            <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
+                                <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
+                                <p class="relative z-10" contenteditable="false">Buy now</p>
+                            </button>
+                        </a>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
                     </div>
