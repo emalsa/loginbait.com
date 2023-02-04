@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="public/css/tailwind/tailwind.min.css">
 
     <!--    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">-->
-    <script async src="js/main.js"></script>
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div class="">
@@ -545,6 +544,8 @@
         </div>
     </section>
 </div>
+<script src="js/main.js"></script>
+
 </body>
 </html>
 
