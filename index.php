@@ -544,7 +544,7 @@
         </div>
     </section>
 </div>
-<script src="js/main.js"></script>
+<script async src="js/main.js"></script>
 
 </body>
 </html>
