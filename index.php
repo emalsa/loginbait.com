@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="public/css/tailwind/tailwind.min.css">
 
 
-    <!--    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">-->
+        <link rel="icon" type="image/png" sizes="32x32" href="gradia-assets/logos/favicon.ico">
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
