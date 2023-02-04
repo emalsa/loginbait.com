@@ -1,6 +1,7 @@
 module.exports = {
     content: [
-        './src/pug/*.pug',
+        '/*.html',
+        '/*.php',
         './src/html/*.html',
     ],
     
