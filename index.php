@@ -341,7 +341,7 @@
         </div>
     </section>
 
-    <section class="bg-gradient-cyan relative py-36 bg-gray-100 overflow-hidden">
+    <section class="relative py-36 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap -m-5">
                 <div class="w-full md:w-1/2 xl:w-1/4 p-5">
