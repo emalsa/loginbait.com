@@ -471,7 +471,7 @@
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
                         <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <a href="https://stripe.com" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
+                            <a href="https://buy.stripe.com/9AQbM1dde6hhgq47ss" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
                         </button>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
@@ -484,7 +484,7 @@
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
                         <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <a href="https://stripe.com" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
+                            <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
                         </button>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
