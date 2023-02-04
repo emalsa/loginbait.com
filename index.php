@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="public/css/tailwind/tailwind.min.css">
 
 
-        <link rel="icon" type="image/png" sizes="32x32" href="gradia-assets/logos/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="gradia-assets/logos/favicon.ico">
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
@@ -53,9 +53,10 @@
                         <div class="w-auto hidden lg:block">
                             <ul class="flex items-center mr-10">
                                 <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#how-it-works">How it works</a></li>
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing">Pricing</a></li>
                                 <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#faq">FAQ</a></li>
-                                <li class="font-heading text-white hover:text-gray-200 text-lg"><a href="#">Pricing</a></li>
+                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing">Pricing</a></li>
+
+                                <!--                                <li class="font-heading text-white hover:text-gray-200 text-lg"><a href="#">Pricing</a></li>-->
                             </ul>
                         </div>
                         <div class="w-auto hidden lg:block">
@@ -100,26 +101,26 @@
                         </div>
                         <div class="flex flex-col justify-center py-8 w-full">
                             <ul>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Features</a></li>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Solutions</a></li>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Resources</a></li>
-                                <li><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Pricing</a></li>
+                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
+                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
+                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
+                                <!--                                <li><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Pricing</a></li>-->
                             </ul>
                         </div>
                         <div class="flex flex-col justify-end w-full">
                             <div class="flex flex-wrap">
-                                <div class="w-full">
-                                    <button class="p-0.5 font-heading block w-full text-lg text-gray-900 font-medium rounded-10">
-                                        <div class="py-2 px-5 rounded-10">
-                                            <p>Login</p>
-                                        </div>
-                                    </button>
-                                </div>
+                                <!--                                <div class="w-full">-->
+                                <!--                                    <button class="p-0.5 font-heading block w-full text-lg text-gray-900 font-medium rounded-10">-->
+                                <!--                                        <div class="py-2 px-5 rounded-10">-->
+                                <!--                                            <p>Login</p>-->
+                                <!--                                        </div>-->
+                                <!--                                    </button>-->
+                                <!--                                </div>-->
                                 <div class="w-full">
                                     <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
                                         <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
                                         <div class="py-2 px-5 bg-white rounded-lg">
-                                            <p class="relative z-10">Start Free Trial</p>
+                                            <p class="relative z-10">Buy now</p>
                                         </div>
                                     </button>
                                 </div>
@@ -353,7 +354,7 @@
         </div>
     </section>
 
-    <section class="relative py-36 bg-gray-100 overflow-hidden">
+    <section id="how-it-works" class="relative py-36 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap -m-5">
                 <div class="w-full md:w-1/2 xl:w-1/4 p-5">
@@ -400,7 +401,7 @@
         </div>
     </section>
 
-    <section class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
+    <section id="faq" class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="max-w-md mx-auto mb-20">
                 <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
@@ -458,7 +459,7 @@
         </div>
     </section>
 
-    <section class="pt-28 pb-40 bg-gray-50 overflow-hidden">
+    <section id="pricing" class="pt-28 pb-40 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="max-w-xl mx-auto">
                 <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-900 text-center" contenteditable="false">Our Pricing</h2>
@@ -545,22 +546,19 @@
 
     <section class="pt-24 overflow-hidden">
         <div class="container mx-auto px-4">
-
-            <!--            <img loading="lazy"  class="mx-auto mb-16" src="gradia-assets/logos/gradia-name-black.svg" alt="">-->
-            <div class="text-center">
-                <ul>
-                    <li class="mb-10 font-heading text-5xl font-bold font-heading mr-9"><a class=" hover:text-gray-200" href="/">Loginbait</a></li>
-                </ul>
-            </div>
+            <ul class="ml-6 flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading mr-9">
+                <li class=""><a class=" hover:text-gray-200" href="/">Loginbait</a></li>
+            </ul>
             <ul class="flex flex-wrap justify-center -m-5 pb-8">
                 <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
                 <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
                 <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
-                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#">Terms &amp; Rights</a></li>
+                <!--                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#">Terms &amp; Rights</a></li>-->
             </ul>
             <div class="border-b border-gray-100"></div>
-            <p class="text-gray-600 text-center py-8 text-sm">© Copyright 2022. All Rights Reserved by loginbait.com.</p>
         </div>
+        <p class="text-gray-600 text-center py-8 text-sm">© Copyright 2022. All Rights Reserved by loginbait.com.</p>
+
     </section>
 </div>
 <script defer src="js/main.js"></script>
