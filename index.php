@@ -496,7 +496,7 @@
         </div>
     </section>
 
-    <section class="py-28 overflow-hidden">
+    <section class="py-28 overflow-hidden bg-gradient-gray2">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap items-center -m-6">
                 <div class="w-full md:w-1/2 p-6">
@@ -549,7 +549,7 @@
             <!--            <img loading="lazy"  class="mx-auto mb-16" src="gradia-assets/logos/gradia-name-black.svg" alt="">-->
             <div class="text-center">
                 <ul>
-                    <li class="font-heading text-5xl font-bold font-heading mr-9  hover:text-gray-200"><a href="/">Loginbait</a></li>
+                    <li class="mb-10 font-heading text-5xl font-bold font-heading mr-9"><a class=" hover:text-gray-200" href="/">Loginbait</a></li>
                 </ul>
             </div>
             <ul class="flex flex-wrap justify-center -m-5 pb-8">
