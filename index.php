@@ -135,11 +135,14 @@
                     <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Manage remote team, anywhere, anytime.</h1>
                     <div class="flex flex-wrap -m-3 mb-20">
                         <div class="w-full lg:w-auto p-3">
-                            <a href="#pricing" class="close-menu font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</a>
+                            <a href="#pricing" class="close-menu">
+                                <button class="font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</button>
+                            </a>
                         </div>
                         <div class="w-full lg:w-auto p-3">
-                            <a href="#how-it-works" class="close-menu font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it
-                                works</a>
+                            <a href="#how-it-works" class="close-menu">
+                                <button class="font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it works</button>
+                            </a>
                         </div>
                     </div>
                     <div class="lg:max-w-md">
