@@ -24,12 +24,13 @@
     <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">-->
     <link rel="stylesheet" href="font2.css">
 
-    <link rel="stylesheet" href="src/tailwind.min.css">
+    <link rel="stylesheet" href="public/css/tailwind/tailwind.min.css">
+
 
     <!--    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">-->
 </head>
 <body class="antialiased bg-body text-body font-body">
-<div class="">
+<div>
 
     <section class="overflow-hidden" style="background: url(gradia-assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
         <section>
@@ -37,7 +38,7 @@
                 <div class="w-auto">
                     <div class="flex flex-wrap items-center">
                         <div class="w-auto mr-14">
-                            <div class="">
+                            <div>
                                 <ul class="flex items-center mr-10">
                                     <li class="font-heading text-5xl text-white font-bold font-heading mr-9 text-white hover:text-gray-200"><a href="/">Loginbait</a></li>
                                 </ul>
@@ -81,7 +82,7 @@
                         <div class="w-full">
                             <div class="flex items-center justify-between -m-2">
                                 <div class="w-auto p-2">
-                                    <div class="">
+                                    <div>
                                         <ul class="flex items-center mr-10">
                                             <li class="font-heading text-4xl  font-bold font-heading mr-9"><a href="/">Loginbait</a></li>
                                         </ul>
@@ -423,8 +424,8 @@
                 <div class="w-full md:w-1/2 p-6">
                     <div class="md:max-w-xl">
                         <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">How can I even test it and be sure that the bait will work?</h2>
-                        <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via Email, you can click on the login button on the website and
-                            you will receive an alert mail.</p>
+                        <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via Email, you can log in on the bait website and after that
+                            you will receive an alert mail automatically.</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 p-6">
@@ -461,9 +462,11 @@
         <div class="container mx-auto px-4">
             <div class="max-w-xl mx-auto">
                 <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-900 text-center" contenteditable="false">Our Pricing</h2>
-                <p class="mb-20 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
-                <div class="p-px bg-gradient-cyan rounded-10 shadow-7xl">
-                    <div class="p-12 text-center rounded-10 bg-white">
+                <p class="mb-18 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
+            </div>
+            <div class="flex flex-wrap items-center justify-center">
+                <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
+                    <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">Yearly</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$14 per year</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
@@ -471,11 +474,12 @@
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
                             <p class="relative z-10" contenteditable="false">Buy now</p>
                         </button>
-                        <p class="text-gray-500" contenteditable="false">You will receive an email with a link to cancel your subscription about two weeks before renewal.</p>
+                        <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
+
                     </div>
                 </div>
-                <div class="p-px bg-gradient-cyan rounded-10 shadow-7xl">
-                    <div class="p-12 text-center rounded-10 bg-white">
+                <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
+                    <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
@@ -483,8 +487,10 @@
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
                             <p class="relative z-10" contenteditable="false">Buy now</p>
                         </button>
-                        <p class="text-gray-500" contenteditable="false">See FAQ for more information</p>
+                        <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -542,7 +548,7 @@
 
             <!--            <img loading="lazy"  class="mx-auto mb-16" src="gradia-assets/logos/gradia-name-black.svg" alt="">-->
             <div class="text-center">
-                <ul class="">
+                <ul>
                     <li class="font-heading text-5xl font-bold font-heading mr-9  hover:text-gray-200"><a href="/">Loginbait</a></li>
                 </ul>
             </div>
