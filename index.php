@@ -27,7 +27,7 @@
 <body class="antialiased bg-body text-body font-body">
 <div class="">
 
-    <section class="overflow-hidden" style="background: url(gradia-assets/images/hero/bg.png) no-repeat; background-size: cover;">
+    <section class="overflow-hidden" style="background: url(gradia-assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
         <section>
             <div class="flex items-center justify-between px-8 py-5">
                 <div class="w-auto">
