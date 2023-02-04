@@ -39,7 +39,7 @@
                     <div class="flex flex-wrap items-center">
                         <div class="w-auto mr-14">
                             <a href="#">
-                                <img src="gradia-assets/logos/gradia-name-white.svg" alt="">
+                                <img loading="lazy"  src="gradia-assets/logos/gradia-name-white.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                             <div class="flex items-center justify-between -m-2">
                                 <div class="w-auto p-2">
                                     <a class="inline-block" href="#">
-                                        <img src="gradia-assets/logos/gradia-name-black.svg" alt="">
+                                        <img loading="lazy"  src="gradia-assets/logos/gradia-name-black.svg" alt="">
                                     </a>
                                 </div>
                                 <div class="w-auto p-2">
@@ -138,7 +138,7 @@
                     <div class="lg:max-w-md">
                         <div class="flex flex-wrap -m-3">
                             <div class="w-auto p-3">
-                                <img class="w-14 h-14" src="gradia-assets/images/hero/avatar-man.png" alt="">
+                                <img loading="lazy"  class="w-14 h-14" src="gradia-assets/images/hero/avatar-man.png" alt="">
                             </div>
                             <div class="flex-1 p-3">
                                 <p class="mb-4 text-gray-300 text-base">“You made it so simple. My new team is so much faster and easier to work with than my old site. I just choose the page, make the
@@ -155,7 +155,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Albert Flores</p>
@@ -183,7 +183,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle2.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle2.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Darlene Robertson</p>
@@ -209,7 +209,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle3.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle3.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Kristin Watson</p>
@@ -237,7 +237,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle4.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle4.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Guy Hawkins</p>
@@ -263,7 +263,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle5.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle5.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Annette Black</p>
@@ -291,7 +291,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Robert Fox</p>
@@ -317,7 +317,7 @@
                                 <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img src="gradia-assets/images/hero/avatar-circle2.png" alt="">
+                                            <img loading="lazy"  src="gradia-assets/images/hero/avatar-circle2.png" alt="">
                                         </div>
                                         <div class="w-auto p-2">
                                             <p class="font-heading text-base text-gray-900">Cody Fisher</p>
@@ -533,7 +533,7 @@
 
     <section class="pt-24 overflow-hidden">
         <div class="container mx-auto px-4">
-            <img class="mx-auto mb-16" src="gradia-assets/logos/gradia-name-black.svg" alt="">
+            <img loading="lazy"  class="mx-auto mb-16" src="gradia-assets/logos/gradia-name-black.svg" alt="">
             <ul class="flex flex-wrap justify-center -m-5 pb-8">
                 <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
                 <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
