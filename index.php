@@ -557,7 +557,7 @@
             </ul>
             <div class="border-b border-gray-100"></div>
         </div>
-        <p class="text-gray-600 text-center py-8 text-sm">© Copyright 2022. All Rights Reserved by loginbait.com.</p>
+        <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright 2022. All Rights Reserved by loginbait.com.</p>
 
     </section>
 </div>
