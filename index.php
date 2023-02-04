@@ -546,7 +546,7 @@
 
     <section class="pt-24 overflow-hidden">
         <div class="container mx-auto px-4">
-            <ul class="ml-6 flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading mr-9">
+            <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading mr-9">
                 <li class=""><a class=" hover:text-gray-200" href="/">Loginbait</a></li>
             </ul>
             <ul class="flex flex-wrap justify-center -m-5 pb-8">
