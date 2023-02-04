@@ -1,4 +1,6 @@
 // Burger menus
+console.log('pre');
+
 document.addEventListener('DOMContentLoaded', function() {
     // open
     console.log('DOMContentLoaded');
