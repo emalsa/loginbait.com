@@ -544,7 +544,7 @@
         </div>
     </section>
 </div>
-<script async src="js/main.js"></script>
+<script defer src="js/main.js"></script>
 
 </body>
 </html>
