@@ -50,9 +50,9 @@
                     <div class="flex flex-wrap items-center">
                         <div class="w-auto hidden lg:block">
                             <ul class="flex items-center mr-10">
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#how-it-works" class="close-menu">How it works</a></li>
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#faq" class="close-menu">FAQ</a></li>
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing" class="close-menu">Pricing</a></li>
+                                <li class="close-menu font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#how-it-works" class="close-menu">How it works</a></li>
+                                <li class="close-menu font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#faq" class="close-menu">FAQ</a></li>
+                                <li class="close-menu font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing" class="close-menu">Pricing</a></li>
 
                                 <!--                                <li class="font-heading text-white hover:text-gray-200 text-lg"><a href="#">Pricing</a></li>-->
                             </ul>
