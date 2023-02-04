@@ -40,11 +40,9 @@
                         <div class="w-auto mr-14">
                             <div>
                                 <ul class="flex items-center mr-10">
-                                    <li class="font-heading text-5xl text-white font-bold font-heading mr-9 text-white hover:text-gray-200"><a href="/">Loginbait</a></li>
+                                    <li class="font-heading text-5xl text-white font-bold font-heading mr-9 text-white hover:text-gray-200"><a class="close-menu" href="/">Loginbait</a></li>
                                 </ul>
                             </div>
-                            <!--                                <img loading="lazy"  src="gradia-assets/logos/logo.svg" alt="">-->
-
                         </div>
                     </div>
                 </div>
@@ -52,17 +50,17 @@
                     <div class="flex flex-wrap items-center">
                         <div class="w-auto hidden lg:block">
                             <ul class="flex items-center mr-10">
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#how-it-works">How it works</a></li>
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#faq">FAQ</a></li>
-                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing">Pricing</a></li>
+                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#how-it-works" class="close-menu">How it works</a></li>
+                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#faq" class="close-menu">FAQ</a></li>
+                                <li class="font-heading mr-9 text-white hover:text-gray-200 text-lg"><a href="#pricing" class="close-menu">Pricing</a></li>
 
                                 <!--                                <li class="font-heading text-white hover:text-gray-200 text-lg"><a href="#">Pricing</a></li>-->
                             </ul>
                         </div>
                         <div class="w-auto hidden lg:block">
-                            <button class="group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
+                            <button class="close-menu group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
                                 <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
-                                <p class="relative z-10 group-hover:text-gray-800">Buy now</p>
+                                <a href="#pricing" class="relative z-10 group-hover:text-gray-800">Buy now</a>
                             </button>
                         </div>
                         <div class="w-auto lg:hidden">
@@ -85,7 +83,7 @@
                                 <div class="w-auto p-2">
                                     <div>
                                         <ul class="flex items-center mr-10">
-                                            <li class="font-heading text-4xl  font-bold font-heading mr-9"><a href="/">Loginbait</a></li>
+                                            <li class="font-heading text-4xl  font-bold font-heading mr-9"><a class="close-menu" href="/">Loginbait</a></li>
                                         </ul>
                                     </div>
                                     <!--                                        <img loading="lazy"  src="gradia-assets/logos/gradia-name-black.svg" alt="">-->
@@ -101,9 +99,9 @@
                         </div>
                         <div class="flex flex-col justify-center py-8 w-full">
                             <ul>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
-                                <li class="mb-12"><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
+                                <li class="mb-12"><a class="close-menu font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
+                                <li class="mb-12"><a class="close-menu font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
+                                <li class="mb-12"><a class="close-menu font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
                                 <!--                                <li><a class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700" href="#">Pricing</a></li>-->
                             </ul>
                         </div>
@@ -117,12 +115,12 @@
                                 <!--                                    </button>-->
                                 <!--                                </div>-->
                                 <div class="w-full">
-                                    <button class="group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
+                                    <a href="#pricing" class="close-menu group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
                                         <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
                                         <div class="py-2 px-5 bg-white rounded-lg">
-                                            <p class="relative z-10">Buy now</p>
+                                            <p  class="relative z-10">Buy now</p>
                                         </div>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -137,10 +135,10 @@
                     <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Manage remote team, anywhere, anytime.</h1>
                     <div class="flex flex-wrap -m-3 mb-20">
                         <div class="w-full lg:w-auto p-3">
-                            <button class="font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</button>
+                            <a href="#pricing" class="close-menu font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</a>
                         </div>
                         <div class="w-full lg:w-auto p-3">
-                            <button class="font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it works</button>
+                            <a href="#how-it-works" class="close-menu font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it works</a>
                         </div>
                     </div>
                     <div class="lg:max-w-md">
@@ -361,7 +359,7 @@
                     <div class="p-7 bg-white rounded-10">
                         <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">43%</h2>
                         <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
                             <p class="mb-1">Read case study</p>
                             <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
                         </a>
@@ -371,7 +369,7 @@
                     <div class="p-7 bg-white rounded-10">
                         <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">79%</h2>
                         <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <a class="close-menu  group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
                             <p class="mb-1">Read case study</p>
                             <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
                         </a>
@@ -381,7 +379,7 @@
                     <div class="p-7 bg-white rounded-10">
                         <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">16%</h2>
                         <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
                             <p class="mb-1">Read case study</p>
                             <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
                         </a>
@@ -452,7 +450,7 @@
                     </div>
                 </div>
             </div>
-            <a class="group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+            <a class="close-menu  group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
                 <p class="mb-1">Didn’t find the answer? Contact us here</p>
                 <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
             </a>
@@ -471,9 +469,9 @@
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">Yearly</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$14 per year</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
-                        <button class="group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
+                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <p class="relative z-10" contenteditable="false">Buy now</p>
+                            <a href="https://stripe.com" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
                         </button>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
@@ -484,9 +482,9 @@
                         <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
                         <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
                         <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
-                        <button class="group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
+                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <p class="relative z-10" contenteditable="false">Buy now</p>
+                            <a href="https://stripe.com" class="relative z-10" target="_blank" contenteditable="false">Buy now</a>
                         </button>
                         <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
@@ -547,13 +545,13 @@
     <section class="pt-24 overflow-hidden">
         <div class="container mx-auto px-4">
             <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
-                <li class=""><a class=" hover:text-gray-200" href="/">Loginbait</a></li>
+                <li class=""><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
             </ul>
             <ul class="flex flex-wrap justify-center -m-5 pb-8">
-                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
-                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
-                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
-                <!--                <li class="p-5"><a class="font-heading text-base text-gray-900 hover:text-gray-700" href="#">Terms &amp; Rights</a></li>-->
+                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
+                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
+                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
+                <!--                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#">Terms &amp; Rights</a></li>-->
             </ul>
             <div class="border-b border-gray-100"></div>
         </div>
