@@ -1,12 +1,15 @@
 // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
+    console.log('DOMContentLoaded');
     const burger = document.querySelectorAll('.navbar-burger');
     const menu = document.querySelectorAll('.navbar-menu');
 
     if (burger.length && menu.length) {
         for (var i = 0; i < burger.length; i++) {
             burger[i].addEventListener('click', function() {
+                console.log('click 1');
+
                 for (var j = 0; j < menu.length; j++) {
                     menu[j].classList.toggle('hidden');
                 }
@@ -21,6 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (close.length) {
         for (var i = 0; i < close.length; i++) {
             close[i].addEventListener('click', function() {
+                console.log('click 2');
+
                 for (var j = 0; j < menu.length; j++) {
                     menu[j].classList.toggle('hidden');
                 }
