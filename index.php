@@ -58,9 +58,11 @@
                             </ul>
                         </div>
                         <div class="w-auto hidden lg:block">
-                            <button class="close-menu group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
-                                <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
-                                <a href="#pricing" class="relative z-10 group-hover:text-gray-800">Buy now</a>
+                            <a href="#pricing" class="close-menu">
+                                <button class="close-menu group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
+                                    <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
+                                    <p class="relative z-10 group-hover:text-gray-800">Buy now</p>
+                            </a>
                             </button>
                         </div>
                         <div class="w-auto lg:hidden">
