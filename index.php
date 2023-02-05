@@ -1,3 +1,9 @@
+<?php
+
+/**
+ * @file
+ */
+?>
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
 <head>
@@ -139,7 +145,7 @@
             <div class="flex flex-wrap justify-between -m-6 pt-32 pb-40">
                 <div class="w-full lg:w-5/12 xl:w-1/2 p-6">
                     <p class="mb-5 font-heading text-gray-400 font-medium text-xl">Get alerted when someone is about to steal your data</p>
-                    <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Create honeypots on the computer.</h1>
+                    <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Create honeypots for your computer.</h1>
                     <div class="flex flex-wrap -m-3 mb-20">
                         <div class="w-6/12 lg:w-auto p-3">
                             <a href="#pricing" class="close-menu">
@@ -277,46 +283,65 @@
     <div id="faq" class="container mx-auto px-4">
         <div class="max-w-md mx-auto mb-20">
             <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
-            <p class="text-lg text-gray-600 text-center">Take a minute and read the FAQ, so that we can clear up any ambiguities and provide you with important information.</p>
+            <p class="text-lg text-gray-600 text-center">Read the FAQ, so that we can clear up any ambiguities and provide you with important information.</p>
         </div>
-        <div class="flex flex-wrap -m-6 mb-24">
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
+        <div class="-m-6 mb-24">
+            <div class="mx-auto sm:w-10/12 md:w-7/12 p-6">
+                <div>
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Why is there no trial version?</h2>
-                    <p class="text-base text-black">We believe that on the Internet there should be the possibility to use a service for free, even if it is restricted. However, in this case we
-                        decided against it.The reason for this is that we do not want to put the bait website too much in the public. If this website is too widely known, the risk would increase
-                        that the attacker would not log in to the website at all. </p>
+                    <p class="text-base text-black">In this case we decided against it. The reason for this is that we do not want to put the bait website too much in the public. If this website is
+                        too
+                        widely known, the risk would increase that the attacker would not log in to the website at all. </p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
-                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What happens if the bait website somehow becomes publicly known?</h2>
-                    <p class="text-base text-black">We will launch a new website with a new domain and inform you with an email. The service would then continue, simply with a new URL.</p>
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What exactly do I receive as bait?</h2>
+                    <p class="text-base text-black mb-4">You will receive an email from the bait website containing the URL and login details.</p>
+                    <p class="text-base text-black">If you already want to put out your first bait: Leave this email in the mailbox. If someone gains access to your mailbox, they will surely come
+                        across it.</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">How can I even test it and be sure that the bait will work?</h2>
-                    <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via Email, you can log in on the bait website and after that
-                        you will receive an alert mail automatically.</p>
+                    <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via email, you can log in on the bait website and after that
+                        you will receive an alert email.</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
+
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Will the service continue once someone has logged in?</h2>
                     <p class="text-base text-black">Yes, the service will continue. You don't have to worry about it. We limit email alerts to 10 emails per month. So if the attacker/thief tries
                         to log in several times, you won't get more than 10 emails in that month. The next month you will simply have a quota of 10 emails again.</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
-                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Is there a refund?</h2>
-                    <p class="text-base text-black">You can claim your money back within the first 14 days after your purchase.
-                        In addition, we will refund the money if we have demonstrably failed to notify you of a login.</p>
+            <div id="faq-lifetime" class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What exactly do I get in the lifetime plan?</h2>
+                    <p class="text-base text-black">As already mentioned in the "Pricing" section, you pay the mentioned price only once for the next 20 years. As long as our service is available and
+                        not turned off, you can use it.<br/>
+                        New features will <span class="underline">usually</span> be made available for this plan as well, but we reserve the right to deviate from this procedure under certain
+                        circumstances. In this case we would create a good pricing plan for you if you want to benefit from the new feature.</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 p-6">
-                <div class="md:max-w-xl">
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What happens if the bait website somehow becomes publicly known?</h2>
+                    <p class="text-base text-black">We will launch a new designed website with a new domain and inform you. The service would then continue with a new URL.</p>
+                </div>
+            </div>
+
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Is there a refund?</h2>
+                    <p class="text-base text-black">You can claim your money back within the first 14 days after your purchase.
+                        In addition, we will refund the money if we have demonstrably failed to notify you on a login.</p>
+                </div>
+            </div>
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What do you do after I get an alert? Will you go after the attacker/thief?</h2>
                     <p class="text-base text-black">Unfortunately, we are not allowed to and cannot do that. The point is that you will be notified as soon as someone has viewed your data and
                         credentials that he should not. So you can react fast and change passwords if necessary. You get in the alert email some data (IP, browser etc.) from the login attempt.
@@ -324,7 +349,7 @@
                 </div>
             </div>
         </div>
-        <a class="close-menu  group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+        <a class="close-menu group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
             <p class="mb-1">Didn’t find the answer? Contact us here</p>
             <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
         </a>
@@ -359,14 +384,14 @@
                 <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
                     <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
                     <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
-                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
+                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for 20 years.</p>
                     <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" target="_blank">
                         <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-800 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
                             <p class="relative z-10" contenteditable="false">Buy now</p>
                         </button>
                     </a>
-                    <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
+                    <p class="text-gray-500" contenteditable="false">See <a class="hover:text-gray-800 text-base underline" href="#faq-lifetime">here</a> for more information.</p>
 
                 </div>
 
@@ -376,7 +401,7 @@
 </section>
 
 <!-- Newsletter -->
-<?php if (0): ?>
+<?php if (0) : ?>
     <section class="py-28 overflow-hidden bg-gradient-gray2">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap items-center -m-6">
@@ -430,25 +455,23 @@
 <section class="pt-24 overflow-hidden">
     <div class="container mx-auto px-4">
         <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
-            <li class=""><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
+            <li><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
         </ul>
         <ul class="flex flex-wrap justify-center -m-5 pb-8">
             <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
             <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
             <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
-            <!--                <li class = "p-5"><a class = "close-menu font-heading text-base text-gray-900 hover:text-gray-700" href = "#">Terms &amp;
-            Rights</a></li>-->
+            <!--                <li class = "p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href = "#">Terms &amp;
+           Rights</a></li>-->
         </ul>
         <div class="border-b border-gray-100"></div>
     </div>
     <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright <span id="current-year">2022</span>. All Rights Reserved by loginbait.com.</p>
 
 </section>
-</div>
 <script defer src="js/main.js"></script>
 <script>
 
 </script>
 </body>
 </html>
-
