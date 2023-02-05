@@ -27,13 +27,13 @@
     <link rel="stylesheet" href="public/css/tailwind/tailwind.min.css">
 
 
-    <link rel="icon" type="image/png" sizes="32x32" href="gradia-assets/logos/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/logos/favicon.ico">
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
 
     <!-- Navigation/Hero -->
-    <section class="overflow-hidden" style="background: url(gradia-assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
+    <section class="overflow-hidden" style="background: url(assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
             <div class="flex items-center justify-between px-8 py-5">
@@ -64,8 +64,9 @@
                                 <button class="close-menu group relative font-heading block py-2 px-5 text-lg text-white border-2 border-white overflow-hidden rounded-10">
                                     <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
                                     <p class="relative z-10 group-hover:text-gray-800">Buy now</p>
+                                </button>
                             </a>
-                            </button>
+
                         </div>
                         <div class="w-auto lg:hidden">
                             <a href="#">
@@ -90,7 +91,7 @@
                                             <li class="font-heading text-4xl  font-bold font-heading mr-9"><a class="close-menu" href="/">Loginbait</a></li>
                                         </ul>
                                     </div>
-                                    <!--                                        <img loading="lazy"  src="gradia-assets/logos/gradia-name-black.svg" alt="">-->
+                                    <!--                                        <img loading="lazy"  src="assets/logos/gradia-name-black.svg" alt="">-->
                                 </div>
                                 <div class="w-auto p-2">
                                     <a class="navbar-burger" href="#">
@@ -118,7 +119,7 @@
                                 <!--                                        </div>-->
                                 <!--                                    </button>-->
                                 <!--                                </div>-->
-                                <div class="w-full text-center">
+                                <div class="w-6/12 text-center">
                                     <a href="#pricing" class="close-menu group relative p-0.5 font-heading block w-full text-lg text-gray-900 font-medium bg-gradient-cyan overflow-hidden rounded-10">
                                         <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gradient-cyan transition ease-in-out duration-500"></div>
                                         <div class="py-2 px-5 bg-white rounded-lg">
@@ -137,15 +138,15 @@
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-between -m-6 pt-32 pb-40">
                 <div class="w-full lg:w-5/12 xl:w-1/2 p-6">
-                    <p class="mb-5 font-heading text-gray-400 font-medium text-xl">Grow fast, get things done with ease</p>
-                    <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Manage remote team, anywhere, anytime.</h1>
+                    <p class="mb-5 font-heading text-gray-400 font-medium text-xl">Get alerted when someone is about to steal your data</p>
+                    <h1 class="mb-14 font-heading text-7xl md:text-9xl xl:text-11xl text-white font-bold">Create honeypots on the computer.</h1>
                     <div class="flex flex-wrap -m-3 mb-20">
-                        <div class="w-full lg:w-auto p-3">
+                        <div class="w-6/12 lg:w-auto p-3">
                             <a href="#pricing" class="close-menu">
                                 <button class="font-heading w-full px-6 py-4 text-base text-gray-900 bg-white hover:bg-gray-100 rounded-md">Buy now</button>
                             </a>
                         </div>
-                        <div class="w-full lg:w-auto p-3">
+                        <div class="w-6/12 lg:w-auto p-3">
                             <a href="#how-it-works" class="close-menu">
                                 <button class="font-heading w-full px-6 py-4 text-base text-white bg-transparent border border-gray-500 hover:border-gray-600 rounded-md">How it works</button>
                             </a>
@@ -154,204 +155,65 @@
                     <div class="lg:max-w-md">
                         <div class="flex flex-wrap -m-3">
                             <div class="w-auto p-3">
-                                <img loading="lazy" class="w-14 h-14" src="gradia-assets/images/hero/avatar-man.png" alt="">
+                                <img loading="lazy" class="w-14 h-14 rounded-md" src="assets/images/hero/red_quote.png" alt="">
                             </div>
                             <div class="flex-1 p-3">
-                                <p class="mb-4 text-gray-300 text-base">“You made it so simple. My new team is so much faster and easier to work with than my old site. I just choose the page, make the
-                                    change.”</p>
-                                <p class="font-heading text-white text-base">Denny Jones, founder of Growthio</p>
+                                <p class="mb-4 text-gray-300 text-base">“Thank you for making it so easy. In my ongoing divorce, I had put the bait in my documents folder on my computer. After a week,
+                                    I had proof that my now ex-partner had been snooping around on my computer.”</p>
+                                <p class="font-heading text-white text-base">Victoria from Portland</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full lg:w-7/12 xl:w-1/2 p-6">
-                    <div class="max-w-max mx-auto">
-                        <div class="flex flex-wrap justify-center -m-3 mb-3">
+                    <div class="max-w-max mx-auto pt-14">
+                        <div class="flex flex-wrap justify-center -m-3 mb-12">
                             <div class="w-full p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+                                <!-- Get-->
+                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle.png" alt="">
+                                            <img class="rounded-full" loading="lazy" src="assets/images/hero/green_circle.png" alt="">
                                         </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Albert Flores</p>
-                                            <p class="mb-2 text-sm text-gray-500">Software Engineer</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">Wyoming, USA</p>
-                                            </div>
+                                        <div class="w-auto p-2 mb-auto mt-auto">
+                                            <p class="font-heading text-base text-gray-900">Get the bait</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap justify-center max-w-max -m-3 mb-3">
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
-                                    <div class="flex flex-wrap -m-2">
-                                        <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle2.png" alt="">
-                                        </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Darlene Robertson</p>
-                                            <p class="mb-2 text-sm text-gray-500">Software Tester</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">New York, USA</p>
-                                            </div>
-                                        </div>
+                                    <div class="w-auto p-2">
+                                        <p class="pt-4 text-sm text-gray-500">Just purchase it and you will get the bait website and personal login details.</p>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+
+                                <!-- Place-->
+                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle3.png" alt="">
+                                            <img class="rounded-full" loading="lazy" src="assets/images/hero/yellow_circle.png" alt="">
                                         </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Kristin Watson</p>
-                                            <p class="mb-2 text-sm text-gray-500">Project Manager</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">Pennsylvania, USA</p>
-                                            </div>
+                                        <div class="w-auto p-2 mb-auto mt-auto">
+                                            <p class="font-heading text-base text-gray-900">Put out the baits</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap justify-center max-w-max -m-3 mb-3 xl:-ml-20">
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
-                                    <div class="flex flex-wrap -m-2">
-                                        <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle4.png" alt="">
-                                        </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Guy Hawkins</p>
-                                            <p class="mb-2 text-sm text-gray-500">Scrum Master</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">North Carolina, USA</p>
-                                            </div>
-                                        </div>
+                                    <div class="w-auto p-2">
+                                        <p class="pt-4 text-sm text-gray-500">Put the baits on your computer or write them on the first page of your diary.</p>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+
+                                <!-- Get Notified-->
+                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle5.png" alt="">
+                                            <img class="rounded-full" loading="lazy" src="assets/images/hero/red_circle.png" alt="">
                                         </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Annette Black</p>
-                                            <p class="mb-2 text-sm text-gray-500">Software Engineer</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">North Dakota, USA</p>
-                                            </div>
+                                        <div class="w-auto p-2 mb-auto mt-auto">
+                                            <p class="font-heading text-base text-gray-900">Get notified</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap justify-center max-w-max -m-3">
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
-                                    <div class="flex flex-wrap -m-2">
-                                        <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle.png" alt="">
-                                        </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Robert Fox</p>
-                                            <p class="mb-2 text-sm text-gray-500">UI/UX Designer</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">Maine, USA</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-full sm:w-1/2 p-3">
-                                <div class="mx-auto w-64 p-3 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
-                                    <div class="flex flex-wrap -m-2">
-                                        <div class="w-auto p-2">
-                                            <img loading="lazy" src="gradia-assets/images/hero/avatar-circle2.png" alt="">
-                                        </div>
-                                        <div class="w-auto p-2">
-                                            <p class="font-heading text-base text-gray-900">Cody Fisher</p>
-                                            <p class="mb-2 text-sm text-gray-500">Ethical Hacker</p>
-                                            <div class="flex items-center px-2 py-1 bg-gray-100 rounded-full">
-                                                <svg class="mr-1" width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M9.56413 9.02246C9.19416 9.39243 8.5298 10.0568 7.91404 10.6726C7.13299 11.4536 5.867 11.4536 5.08595 10.6725C4.4823 10.0689 3.82786 9.41446 3.43587 9.02246C1.7436 7.33019 1.7436 4.58648 3.43587 2.8942C5.12814 1.20193 7.87185 1.20193 9.56413 2.8942C11.2564 4.58648 11.2564 7.33019 9.56413 9.02246Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                    <path d="M8.125 5.95833C8.125 6.8558 7.39746 7.58333 6.5 7.58333C5.60253 7.58333 4.875 6.8558 4.875 5.95833C4.875 5.06087 5.60253 4.33333 6.5 4.33333C7.39746 4.33333 8.125 5.06087 8.125 5.95833Z"
-                                                          stroke="#71717A"
-                                                          stroke-linecap="round"
-                                                          stroke-linejoin="round"></path>
-                                                </svg>
-                                                <p class="text-xs text-gray-700 font-medium">Alaska, USA</p>
-                                            </div>
-                                        </div>
+                                    <div class="w-auto p-2">
+                                        <p class="pt-4 text-sm text-gray-500">The bait website suggests that it is about cryptocurrency, which would be very easy to steal. After the person has logged
+                                            in, as he surely wants to look at whether you own cryptocurrencies, you'll be notified per email about this event.</p>
                                     </div>
                                 </div>
                             </div>
@@ -360,160 +222,161 @@
                 </div>
             </div>
         </div>
-    </section>
+</div>
 
-    <!-- How it works -->
-    <section id="how-it-works" class="relative py-36 bg-gray-100 overflow-hidden">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap -m-5">
-                <div class="w-full md:w-1/2 xl:w-1/4 p-5">
-                    <div class="p-7 bg-white rounded-10">
-                        <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">43%</h2>
-                        <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
-                            <p class="mb-1">Read case study</p>
-                            <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
-                        </a>
-                    </div>
+<!-- How it works -->
+<section id="how-it-works" class="relative py-36 bg-gray-100 overflow-hidden">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap -m-5">
+            <div class="w-full md:w-1/2 xl:w-1/4 p-5">
+                <div class="p-7 bg-white rounded-10">
+                    <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">43%</h2>
+                    <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
+                    <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <p class="mb-1">Read case study</p>
+                        <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
+                    </a>
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/4 p-5">
-                    <div class="p-7 bg-white rounded-10">
-                        <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">79%</h2>
-                        <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="close-menu  group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
-                            <p class="mb-1">Read case study</p>
-                            <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
-                        </a>
-                    </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 p-5">
+                <div class="p-7 bg-white rounded-10">
+                    <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">79%</h2>
+                    <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
+                    <a class="close-menu  group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <p class="mb-1">Read case study</p>
+                        <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
+                    </a>
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/4 p-5">
-                    <div class="p-7 bg-white rounded-10">
-                        <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">16%</h2>
-                        <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
-                        <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
-                            <p class="mb-1">Read case study</p>
-                            <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
-                        </a>
-                    </div>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 p-5">
+                <div class="p-7 bg-white rounded-10">
+                    <h2 class="mb-4 font-heading font-bold text-8xl sm:text-9xl text-gray-900">16%</h2>
+                    <p class="mb-10 text-gray-600 text-base">Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
+                    <a class="close-menu group inline-block font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+                        <p class="mb-1">Read case study</p>
+                        <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
+                    </a>
                 </div>
-                <div class="w-full md:w-1/2 xl:w-1/4 p-5">
-                    <h2 class="mb-4 font-bold font-heading text-4xl text-gray-900">Looking for growth?</h2>
-                    <p class="mb-7 text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, amet, neque vestibulum elit mi vitae lacus.</p>
-                    <button class="group p-0.5 mb-8 font-heading block w-full md:w-auto text-base text-gray-900 font-bold bg-white hover:bg-gray-50 bg-gradient-cyan overflow-hidden rounded-md">
-                        <div class="relative py-3.5 px-7 bg-white rounded">
-                            <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                            <p class="relative z-10">Book A Free Call</p>
-                        </div>
-                    </button>
+            </div>
+            <div class="w-full md:w-1/2 xl:w-1/4 p-5">
+                <h2 class="mb-4 font-bold font-heading text-4xl text-gray-900">Looking for growth?</h2>
+                <p class="mb-7 text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, amet, neque vestibulum elit mi vitae lacus.</p>
+                <button class="group p-0.5 mb-8 font-heading block w-full md:w-auto text-base text-gray-900 font-bold bg-white hover:bg-gray-50 bg-gradient-cyan overflow-hidden rounded-md">
+                    <div class="relative py-3.5 px-7 bg-white rounded">
+                        <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
+                        <p class="relative z-10">Book A Free Call</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
+    <div id="faq" class="container mx-auto px-4">
+        <div class="max-w-md mx-auto mb-20">
+            <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
+            <p class="text-lg text-gray-600 text-center">Take a minute and read the FAQ, so that we can clear up any ambiguities and provide you with important information.</p>
+        </div>
+        <div class="flex flex-wrap -m-6 mb-24">
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Why is there no trial version?</h2>
+                    <p class="text-base text-black">We believe that on the Internet there should be the possibility to use a service for free, even if it is restricted. However, in this case we
+                        decided against it.The reason for this is that we do not want to put the bait website too much in the public. If this website is too widely known, the risk would increase
+                        that the attacker would not log in to the website at all. </p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What happens if the bait website somehow becomes publicly known?</h2>
+                    <p class="text-base text-black">We will launch a new website with a new domain and inform you with an email. The service would then continue, simply with a new URL.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">How can I even test it and be sure that the bait will work?</h2>
+                    <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via Email, you can log in on the bait website and after that
+                        you will receive an alert mail automatically.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Will the service continue once someone has logged in?</h2>
+                    <p class="text-base text-black">Yes, the service will continue. You don't have to worry about it. We limit email alerts to 10 emails per month. So if the attacker/thief tries
+                        to log in several times, you won't get more than 10 emails in that month. The next month you will simply have a quota of 10 emails again.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Is there a refund?</h2>
+                    <p class="text-base text-black">You can claim your money back within the first 14 days after your purchase.
+                        In addition, we will refund the money if we have demonstrably failed to notify you of a login.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-6">
+                <div class="md:max-w-xl">
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What do you do after I get an alert? Will you go after the attacker/thief?</h2>
+                    <p class="text-base text-black">Unfortunately, we are not allowed to and cannot do that. The point is that you will be notified as soon as someone has viewed your data and
+                        credentials that he should not. So you can react fast and change passwords if necessary. You get in the alert email some data (IP, browser etc.) from the login attempt.
+                        Possibly the authorities can work with it further when you forward the information.</p>
                 </div>
             </div>
         </div>
-    </section>
+        <a class="close-menu  group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+            <p class="mb-1">Didn’t find the answer? Contact us here</p>
+            <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
+        </a>
+    </div>
+</section>
 
-    <!-- FAQ -->
-    <section id="faq" class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
-        <div class="container mx-auto px-4">
-            <div class="max-w-md mx-auto mb-20">
-                <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
-                <p class="text-lg text-gray-600 text-center">Take a minute and read the FAQ, so that we can clear up any ambiguities and provide you with important information.</p>
-            </div>
-            <div class="flex flex-wrap -m-6 mb-24">
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Why is there no trial version?</h2>
-                        <p class="text-base text-black">We believe that on the Internet there should be the possibility to use a service for free, even if it is restricted. However, in this case we
-                            decided against it.The reason for this is that we do not want to put the bait website too much in the public. If this website is too widely known, the risk would increase
-                            that the attacker would not log in to the website at all. </p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What happens if the bait website somehow becomes publicly known?</h2>
-                        <p class="text-base text-black">We will launch a new website with a new domain and inform you with an email. The service would then continue, simply with a new URL.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">How can I even test it and be sure that the bait will work?</h2>
-                        <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via Email, you can log in on the bait website and after that
-                            you will receive an alert mail automatically.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Will the service continue once someone has logged in?</h2>
-                        <p class="text-base text-black">Yes, the service will continue. You don't have to worry about it. We limit email alerts to 10 emails per month. So if the attacker/thief tries
-                            to log in several times, you won't get more than 10 emails in that month. The next month you will simply have a quota of 10 emails again.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Is there a refund?</h2>
-                        <p class="text-base text-black">You can claim your money back within the first 14 days after your purchase.
-                            In addition, we will refund the money if we have demonstrably failed to notify you of a login.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 p-6">
-                    <div class="md:max-w-xl">
-                        <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What do you do after I get an alert? Will you go after the attacker/thief?</h2>
-                        <p class="text-base text-black">Unfortunately, we are not allowed to and cannot do that. The point is that you will be notified as soon as someone has viewed your data and
-                            credentials that he should not. So you can react fast and change passwords if necessary. You get in the alert email some data (IP, browser etc.) from the login attempt.
-                            Possibly the authorities can work with it further when you forward the information.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="close-menu  group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
-                <p class="mb-1">Didn’t find the answer? Contact us here</p>
-                <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
-            </a>
+<!-- Pricing -->
+<section class="pt-28 pb-40 bg-gray-50 overflow-hidden">
+    <div id="pricing" class="container mx-auto px-4">
+        <div class="max-w-xl mx-auto">
+            <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-900 text-center" contenteditable="false">Our Pricing</h2>
+            <p class="mb-18 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
         </div>
-    </section>
+        <div class="flex flex-wrap items-center justify-center">
+            <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
+                <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
+                    <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">Yearly</p>
+                    <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$14 per year</h3>
+                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
 
-    <!-- Pricing -->
-    <section id="pricing" class="pt-28 pb-40 bg-gray-50 overflow-hidden">
-        <div class="container mx-auto px-4">
-            <div class="max-w-xl mx-auto">
-                <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-900 text-center" contenteditable="false">Our Pricing</h2>
-                <p class="mb-18 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
+                    <a href="https://buy.stripe.com/9AQbM1dde6hhgq47ss" target="_blank">
+                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-800 text-base font-bold text-white overflow-hidden rounded-md">
+                            <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
+                            <p class="relative z-10" contenteditable="false">Buy now</p>
+                        </button>
+                    </a>
+                    <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
+
+                </div>
             </div>
-            <div class="flex flex-wrap items-center justify-center">
-                <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
-                    <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
-                        <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">Yearly</p>
-                        <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$14 per year</h3>
-                        <p class="mb-10 text-xl text-gray-600" contenteditable="false">Standard</p>
-
-                        <a href="https://buy.stripe.com/9AQbM1dde6hhgq47ss" target="_blank">
-                            <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
-                                <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                                <p class="relative z-10" contenteditable="false">Buy now</p>
-                            </button>
-                        </a>
-                        <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
-
-                    </div>
-                </div>
-                <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
-                    <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
-                        <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
-                        <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
-                        <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
-                        <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" target="_blank">
-                            <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-900 text-base font-bold text-white overflow-hidden rounded-md">
-                                <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
-                                <p class="relative z-10" contenteditable="false">Buy now</p>
-                            </button>
-                        </a>
-                        <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
-
-                    </div>
+            <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
+                <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
+                    <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
+                    <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
+                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
+                    <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" target="_blank">
+                        <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-800 text-base font-bold text-white overflow-hidden rounded-md">
+                            <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
+                            <p class="relative z-10" contenteditable="false">Buy now</p>
+                        </button>
+                    </a>
+                    <p class="text-gray-500" contenteditable="false">See FAQ for more information.</p>
 
                 </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Newsletter -->
+<!-- Newsletter -->
+<?php if (0): ?>
     <section class="py-28 overflow-hidden bg-gradient-gray2">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap items-center -m-6">
@@ -560,24 +423,27 @@
             </div>
         </div>
     </section>
+<?php endif; ?>
 
-    <!-- Footer -->
-    <section class="pt-24 overflow-hidden">
-        <div class="container mx-auto px-4">
-            <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
-                <li class=""><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
-            </ul>
-            <ul class="flex flex-wrap justify-center -m-5 pb-8">
-                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
-                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
-                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
-                <!--                <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#">Terms &amp; Rights</a></li>-->
-            </ul>
-            <div class="border-b border-gray-100"></div>
-        </div>
-        <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright <span id="current-year">2022</span>. All Rights Reserved by loginbait.com.</p>
 
-    </section>
+<!-- Footer -->
+<section class="pt-24 overflow-hidden">
+    <div class="container mx-auto px-4">
+        <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
+            <li class=""><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
+        </ul>
+        <ul class="flex flex-wrap justify-center -m-5 pb-8">
+            <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#how-it-works">How it works</a></li>
+            <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#pricing">Pricing</a></li>
+            <li class="p-5"><a class="close-menu font-heading text-base text-gray-900 hover:text-gray-700" href="#faq">FAQ</a></li>
+            <!--                <li class = "p-5"><a class = "close-menu font-heading text-base text-gray-900 hover:text-gray-700" href = "#">Terms &amp;
+            Rights</a></li>-->
+        </ul>
+        <div class="border-b border-gray-100"></div>
+    </div>
+    <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright <span id="current-year">2022</span>. All Rights Reserved by loginbait.com.</p>
+
+</section>
 </div>
 <script defer src="js/main.js"></script>
 <script>
