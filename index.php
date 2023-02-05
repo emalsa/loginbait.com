@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3B1HD2GP6"></script>
@@ -564,12 +564,14 @@
             </ul>
             <div class="border-b border-gray-100"></div>
         </div>
-        <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright 2022. All Rights Reserved by loginbait.com.</p>
+        <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright <span id="current-year">2022</span>. All Rights Reserved by loginbait.com.</p>
 
     </section>
 </div>
 <script defer src="js/main.js"></script>
+<script>
 
+</script>
 </body>
 </html>
 

@@ -1,6 +1,10 @@
 // Burger menus
 document.addEventListener('DOMContentLoaded', function () {
-    // open
+    // Footer current year
+    // const currentYear = document.querySelector('span#current-year');
+    document.getElementById('current-year').innerHTML = new Date().getFullYear();
+
+    // Open
     const burger = document.querySelectorAll('.navbar-burger');
     const menu = document.querySelectorAll('.navbar-menu');
 
@@ -14,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // close
+    // Close
     const close = document.querySelectorAll('.navbar-close');
     const backdrop = document.querySelectorAll('.navbar-backdrop');
     const link = document.querySelectorAll('.close-menu');
