@@ -283,7 +283,7 @@
     <div id="faq" class="container mx-auto px-4">
         <div class="max-w-md mx-auto mb-20">
             <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
-            <p class="text-lg text-gray-600 text-center">Read the FAQ, so that we can clear up any ambiguities and provide you with important information.</p>
+            <p class="text-lg text-gray-600 text-center">Read the FAQ so we can answer common questions and give you important information.</p>
         </div>
         <div class="-m-6 mb-24">
             <div class="mx-auto sm:w-10/12 md:w-7/12 p-6">
@@ -292,14 +292,6 @@
                     <p class="text-base text-black">In this case we decided against it. The reason for this is that we do not want to put the bait website too much in the public. If this website is
                         too
                         widely known, the risk would increase that the attacker would not log in to the website at all. </p>
-                </div>
-            </div>
-            <div class="mx-auto md:w-7/12 p-6">
-                <div>
-                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What exactly do I receive as bait?</h2>
-                    <p class="text-base text-black mb-4">You will receive an email from the bait website containing the URL and login details.</p>
-                    <p class="text-base text-black">If you already want to put out your first bait: Leave this email in the mailbox. If someone gains access to your mailbox, they will surely come
-                        across it.</p>
                 </div>
             </div>
             <div class="mx-auto md:w-7/12 p-6">
@@ -315,6 +307,25 @@
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Will the service continue once someone has logged in?</h2>
                     <p class="text-base text-black">Yes, the service will continue. You don't have to worry about it. We limit email alerts to 10 emails per month. So if the attacker/thief tries
                         to log in several times, you won't get more than 10 emails in that month. The next month you will simply have a quota of 10 emails again.</p>
+                </div>
+            </div>
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What exactly do I receive?</h2>
+                    <p class="text-base text-black mb-2">On the first email you will get the credentials and some instructions and information. There is also an attachment with the credentials and url
+                        to save it on your computer or server.</p>
+                    <p class="text-base text-black">You will also receive a styled email from the bait website containing the URL and login details (Oops!). This email will look like a registration
+                        confirmation. If you already want to put out your first bait: Leave this email in the mailbox. If someone gains access to your mailbox, they will surely come
+                        across it.</p>
+                </div>
+            </div>
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Do you have some examples of where and how to best set the bait?</h2>
+                    <p class="text-base text-black">There are plenty of good places and examples. You can place it on the computer or server as in most cases. However, also physically there are also
+                        some examples below</p>
+                    <p class="mt-2">On your computer </p>
+                    <p class="mt-2">Physically </p>
                 </div>
             </div>
             <div id="faq-lifetime" class="mx-auto md:w-7/12 p-6">
