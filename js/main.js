@@ -1,7 +1,6 @@
 // Burger menus
 document.addEventListener('DOMContentLoaded', function () {
     // Footer current year
-    // const currentYear = document.querySelector('span#current-year');
     document.getElementById('current-year').innerHTML = new Date().getFullYear();
 
     // Open
