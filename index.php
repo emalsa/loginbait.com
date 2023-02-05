@@ -170,7 +170,7 @@
                         <div class="flex flex-wrap justify-center -m-3 mb-12">
                             <div class="w-full p-3">
                                 <!-- Get-->
-                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+                                <div class="mb-4 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
                                             <img class="rounded-full" loading="lazy" src="assets/images/hero/green_circle.png" alt="">
@@ -186,7 +186,7 @@
                                 </div>
 
                                 <!-- Place-->
-                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+                                <div class="mb-4 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
                                             <img class="rounded-full" loading="lazy" src="assets/images/hero/yellow_circle.png" alt="">
@@ -202,7 +202,7 @@
                                 </div>
 
                                 <!-- Get Notified-->
-                                <div class="mb-6 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
+                                <div class="mb-4 mx-auto w-80 p-5 bg-white transform hover:-translate-y-3 transition ease-out duration-1000 rounded-2xl">
                                     <div class="flex flex-wrap -m-2">
                                         <div class="w-auto p-2">
                                             <img class="rounded-full" loading="lazy" src="assets/images/hero/red_circle.png" alt="">
