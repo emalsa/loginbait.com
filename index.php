@@ -32,7 +32,9 @@
 <body class="antialiased bg-body text-body font-body">
 <div>
 
+    <!-- Navigation/Hero -->
     <section class="overflow-hidden" style="background: url(gradia-assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
+        <!-- Navigation -->
         <section>
             <div class="flex items-center justify-between px-8 py-5">
                 <div class="w-auto">
@@ -130,6 +132,8 @@
                 </nav>
             </div>
         </section>
+
+        <!-- Hero -->
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-between -m-6 pt-32 pb-40">
                 <div class="w-full lg:w-5/12 xl:w-1/2 p-6">
@@ -358,6 +362,7 @@
         </div>
     </section>
 
+    <!-- How it works -->
     <section id="how-it-works" class="relative py-36 bg-gray-100 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap -m-5">
@@ -405,6 +410,7 @@
         </div>
     </section>
 
+    <!-- FAQ -->
     <section id="faq" class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="max-w-md mx-auto mb-20">
@@ -463,6 +469,7 @@
         </div>
     </section>
 
+    <!-- Pricing -->
     <section id="pricing" class="pt-28 pb-40 bg-gray-50 overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="max-w-xl mx-auto">
@@ -506,6 +513,7 @@
         </div>
     </section>
 
+    <!-- Newsletter -->
     <section class="py-28 overflow-hidden bg-gradient-gray2">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap items-center -m-6">
@@ -553,6 +561,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <section class="pt-24 overflow-hidden">
         <div class="container mx-auto px-4">
             <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
