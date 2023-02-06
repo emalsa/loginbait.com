@@ -291,14 +291,14 @@
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Why is there no trial version?</h2>
                     <p class="text-base text-black">In this case we decided against it. The reason for this is that we do not want to put the bait website too much in the public. If this website is
                         too
-                        widely known, the risk would increase that the attacker would not log in to the website at all. </p>
+                        widely known, the risk would increase that the attacker would not log in to the website at all.</p>
                 </div>
             </div>
             <div class="mx-auto md:w-7/12 p-6">
                 <div>
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">How can I even test it and be sure that the bait will work?</h2>
                     <p class="text-base text-black">You can easily test this. After you have received the credentials and the URL via email, you can log in on the bait website and after that
-                        you will receive an alert email.</p>
+                        you will receive an alert email.<br/>You can repeat this at any time.</p>
                 </div>
             </div>
 
@@ -349,6 +349,12 @@
                     <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">Is there a refund?</h2>
                     <p class="text-base text-black">You can claim your money back within the first 14 days after your purchase.
                         In addition, we will refund the money if we have demonstrably failed to notify you on a login.</p>
+                </div>
+            </div>
+            <div class="mx-auto md:w-7/12 p-6">
+                <div>
+                    <h2 class="mb-4 font-heading font-medium text-2xl text-gray-900">What information does the notification email contain about the potential thief?</h2>
+                    <p class="text-base text-black">We sen</p>
                 </div>
             </div>
             <div class="mx-auto md:w-7/12 p-6">
