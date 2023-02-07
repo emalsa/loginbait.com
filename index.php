@@ -475,7 +475,7 @@
             <p class="text-gray-600 text-lg">How can we help you? Whether you are a new or existing customer, you can contact us at any time.</p>
         </div>
         <form action="contact.php" method="post" id="contact-child" accept-charset="UTF-8" class="flex flex-wrap max-w-xl mx-auto -m-2.5">
-            <div>
+            <div class="w-full p-2.5">
                 <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
                        name="firstname"
