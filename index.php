@@ -53,7 +53,7 @@
 <body class="antialiased bg-body text-body font-body">
 <!-- Navigation/Hero -->
 <div>
-    <h1><?php echo gethostname();?></h1>
+    <h1><?php echo $_SERVER['HTTP_HOST'];?></h1>
     <section class="overflow-hidden" style="background: url(assets/images/hero/bg.png) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
