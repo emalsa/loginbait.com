@@ -33,10 +33,14 @@
 </body>
 <?php
 
-# Include the Autoloader (see "Libraries" for install instructions)
+require 'vendor/autoload.php';
+
 use Mailgun\Mailgun;
 
-require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+
 $spammer = FALSE;
 
 
@@ -53,12 +57,19 @@ $spammer = FALSE;
 // A very simple PHP example that sends a HTTP POST to a remote site
 //
 try {
-  //  throw new Exception('erro');
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Require the honeypot field to be present but empty
     if (!isset($_REQUEST['lastname']) || !empty($_REQUEST['lastname'])) {
       // Hello spammer!
       $spammer = TRUE;
+      echo 'Thank you very much. We will get back to you.';
+      return;
+    }
+
+    if (empty($_REQUEST['firstname']) || empty($_REQUEST['firstname']) || empty($_REQUEST['message'])) {
+      echo '<div>Please fill all required fields.
+<p style="padding-top:10px;"><a style="color: #ec5353;text-decoration: underline" href="/#contact">Back to homepage</a></></div>';
+      return;
     }
 
     $data = [
@@ -69,23 +80,26 @@ try {
 
 
     # Instantiate the client.
-    $mgClient = Mailgun::create(getenv('MAILGUN_APIKEY'));
+    $mgClient = Mailgun::create($_SERVER['MAILGUN_APIKEY']);
     $domain = "loginbait.com";
 
     # Make the call to the client.
-    $result = $mgClient->messages()->send("$domain",
+    $result = $mgClient->messages()->send('loginbait.com',
       [
-        'from' => 'Mailgun Sandbox <postmaster@loginbait.com>',
+        'from' => 'Loginbait Contact form <postmaster@loginbait.com>',
         'to' => 'Daniele Nicastro <setaloro@gmail.com>',
-        'subject' => 'Hello Daniele Nicastro',
+        'subject' => 'Contact:' . $_REQUEST['firstname'],
         'template' => 'contact__website',
         'h:X-Mailgun-Variables' => json_encode($data),
       ]);
 
+    echo '<div>Thank you very much. We will get back to you.
+<p style="padding-top:10px;"><a style="color: #ec5353;text-decoration:underline;padding-top:10px;" href="/">Back to homepage</a></p></div>';
+    return;
   }
 }
 catch (\Exception $exception) {
-  echo $exception->getMessage();
+  echo 'error exception';
 }
 
 
