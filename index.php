@@ -36,9 +36,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/logos/favicon.ico">
 </head>
 <body class="antialiased bg-body text-body font-body">
+<!-- Navigation/Hero -->
 <div>
-    <!-- Navigation/Hero -->
-    <section class="overflow-hidden" style="background: url(assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
+    <section class="overflow-hidden" style="background: url(assets/images/hero/bg.png) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
             <div class="flex items-center justify-between px-8 py-5">
@@ -365,7 +365,7 @@
                 </div>
             </div>
         </div>
-        <a class="close-menu group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#">
+        <a class="close-menu group block max-w-max mx-auto font-heading font-medium text-gray-900 hover:text-gray-800 text-base overflow-hidden" href="#contact">
             <p class="mb-1">Didn’t find the answer? Contact us here</p>
             <div class="w-full transform -translate-x-0 group-hover:translate-x-full h-px bg-gradient-cyan transition ease-in-out duration-500"></div>
         </a>
@@ -373,10 +373,10 @@
 </section>
 
 <!-- Pricing -->
-<section class="pt-28 pb-40 bg-gray-50 overflow-hidden">
+<section class="pt-28 pb-40 bg-gray-100 overflow-hidden">
     <div id="pricing" class="container mx-auto px-4">
         <div class="max-w-xl mx-auto">
-            <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-900 text-center" contenteditable="false">Our Pricing</h2>
+            <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-800 text-center" contenteditable="false">Our Pricing</h2>
             <p class="mb-18 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
         </div>
         <div class="flex flex-wrap items-center justify-center">
@@ -466,9 +466,52 @@
     </section>
 <?php endif; ?>
 
+<!-- Contact -->
+<section class="pt-24 pb-28 bg-gradient-gray2 overflow-hidden">
+    <div id="contact" class="container mx-auto px-4">
+        <div class="max-w-lg mx-auto text-center mb-14">
+            <h2 class="text-gray-800 mb-5 font-heading font-semibold text-6xl sm:text-7xl">Get in touch</h2>
+            <p class="text-gray-700 text-lg">How can we help you? Whether you are a new or existing customer, you can contact us at any time.</p>
+        </div>
+        <form class="flex flex-wrap max-w-xl mx-auto -m-2.5">
+            <div class="w-full p-2.5">
+                <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
+                       type="text"
+                       placeholder="Your name">
+            </div>
+            <div class="w-full p-2.5">
+                <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
+                       type="text"
+                       placeholder="Your email address">
+            </div>
+            <div class="w-full p-2.5">
+                <textarea class="w-full h-40 px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded"
+                          type="text"
+                          placeholder="Write message"></textarea>
+            </div>
+            <div class="w-full p-2.5">
+                <div class="group relative">
+                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-green opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
+                    <button class="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                        <div class="relative p-5 px-11 bg-gradient-green overflow-hidden rounded-md">
+                            <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
+                            <p class="relative z-10">Send message</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!--            <div class="w-full p-2.5">-->
+            <!--                <p class="text-sm text-gray-500 text-center">-->
+            <!--                    <span>By clicking the send button, you agree with our</span>-->
+            <!--                    <a class="pb-1 hover:text-gray-400 border-b border-gray-500" href="#">Terms &amp; Conditions</a>-->
+            <!--                </p>-->
+            <!--            </div>-->
+        </form>
+    </div>
+</section>
 
 <!-- Footer -->
-<section class="pt-24 overflow-hidden">
+<section class="pt-24 bg-gray-100 overflow-hidden">
     <div class="container mx-auto px-4">
         <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
             <li><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
@@ -485,9 +528,7 @@
     <p class="px-10 text-gray-600 text-center py-8 text-sm">© Copyright <span id="current-year">2022</span>. All Rights Reserved by loginbait.com.</p>
 
 </section>
-<script defer src="js/main.js"></script>
-<script>
 
-</script>
+<script defer src="js/main.js"></script>
 </body>
 </html>
