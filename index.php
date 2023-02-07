@@ -7,19 +7,34 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3B1HD2GP6"></script>
-    <script>
-        if (window.location.host === "loginbait.com" || window.location.host === "www.loginbait.com") {
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+  <?php if (1): ?>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TF0MJ1JCF"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
 
-            gtag('js', new Date());
-            gtag('config', 'G-L3B1HD2GP6');
-        }
-    </script>
+          function gtag() {
+              dataLayer.push(arguments);
+          }
+
+          gtag('js', new Date());
+          gtag('config', 'G-8TF0MJ1JCF');
+      </script>
+  <?php else: ?>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3B1HD2GP6"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag() {
+              dataLayer.push(arguments);
+          }
+
+          gtag('js', new Date());
+          gtag('config', 'G-L3B1HD2GP6');
+
+      </script>
+  <?php endif; ?>
     <title>Loginbait.com</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,6 +53,7 @@
 <body class="antialiased bg-body text-body font-body">
 <!-- Navigation/Hero -->
 <div>
+    <h1><?php echo gethostname();?></h1>
     <section class="overflow-hidden" style="background: url(assets/images/hero/bg.png) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
