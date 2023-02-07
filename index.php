@@ -476,7 +476,6 @@
         </div>
         <form action="contact.php" method="post" id="contact-child" accept-charset="UTF-8" class="flex flex-wrap max-w-xl mx-auto -m-2.5">
             <div>
-                <label style="display: none" for="firstname">Lastname</label>
                 <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
                        name="firstname"
@@ -492,14 +491,12 @@
                        autocomplete="off"/>
             </div>
             <div class="w-full p-2.5">
-                <label style="display: none" for="email">Lastname</label>
                 <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="email"
                        name="email"
                        placeholder="Your email address">
             </div>
             <div class="w-full p-2.5">
-<!--                <label style="display: none" for="message">Lastname</label>-->
                 <textarea class="w-full h-40 px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded"
                           type="text"
                           name="message"
