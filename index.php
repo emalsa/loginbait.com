@@ -474,26 +474,42 @@
             <h2 class="text-gray-800 mb-5 font-heading font-semibold text-6xl sm:text-7xl">Get in touch</h2>
             <p class="text-gray-600 text-lg">How can we help you? Whether you are a new or existing customer, you can contact us at any time.</p>
         </div>
-        <form class="flex flex-wrap max-w-xl mx-auto -m-2.5">
-            <div class="w-full p-2.5">
+        <form action="contact.php" method="post" id="contact-child" accept-charset="UTF-8" class="flex flex-wrap max-w-xl mx-auto -m-2.5">
+            <div>
+                <label style="display: none" for="firstname">Lastname</label>
                 <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
+                       name="firstname"
                        placeholder="Your name">
             </div>
+            <!--            style="position: absolute; left: -9999px"-->
             <div class="w-full p-2.5">
+                <label style="display: none" for="lastname">Lastname</label>
                 <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
+                       name="lastname"
+                       tabindex="-1"
+                       autocomplete="off"/>
+            </div>
+            <div class="w-full p-2.5">
+                <label style="display: none" for="email">Lastname</label>
+                <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
+                       type="email"
+                       name="email"
                        placeholder="Your email address">
             </div>
             <div class="w-full p-2.5">
+                <label style="display: none" for="message">Lastname</label>
                 <textarea class="w-full h-40 px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded"
                           type="text"
-                          placeholder="Write message"></textarea>
+                          name="message"
+                          placeholder="Write message">
+                </textarea>
             </div>
             <div class="w-full p-2.5">
                 <div class="group relative">
                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-green opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
-                    <button class="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
+                    <button type="submit" class="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
                         <div class="relative p-5 px-11 bg-gradient-green overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
                             <p class="relative z-10">Send message</p>
@@ -510,6 +526,7 @@
         </form>
     </div>
 </section>
+
 
 <!-- Footer -->
 <section class="pt-24 pb-8 bg-gray-100 overflow-hidden">

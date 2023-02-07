@@ -1,0 +1,10 @@
+{
+    "name": "daniele/loginbait.com",
+    "type": "project",
+    "require": {
+        "mailgun/mailgun-php": "^3.5",
+        "kriswallsmith/buzz": "dev-master",
+        "nyholm/psr7": "^1.5"
+    },
+    "minimum-stability": "dev"
+}

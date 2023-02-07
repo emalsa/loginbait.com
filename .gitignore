@@ -2,3 +2,4 @@
 loginbait.com.iml
 .DS_STORE
 node_modules
+.env
