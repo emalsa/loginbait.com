@@ -278,11 +278,11 @@
 </section>
 
 <!-- FAQ -->
-<section class="pt-24 pb-32 bg-gradient-gray2 overflow-hidden">
+<section class="pt-24 pb-28 bg-gradient-gray2 overflow-hidden">
     <div id="faq" class="container mx-auto px-4">
         <div class="max-w-md mx-auto mb-20">
-            <h2 class="mb-4 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
-            <p class="text-lg text-gray-600 text-center">Read the FAQ so we can answer common questions and give you important information.</p>
+            <h2 class="mb-7 font-heading font-semibold text-center text-6xl sm:text-7xl text-gray-900">Got questions?</h2>
+            <p class="text-lg text-gray-600 text-center">Read the FAQ, so we can answer common questions and give you important information.</p>
         </div>
         <div class="-m-6 mb-24">
             <div class="mx-auto sm:w-10/12 md:w-7/12 p-6">
@@ -373,11 +373,12 @@
 </section>
 
 <!-- Pricing -->
-<section class="pt-28 pb-40 bg-gray-100 overflow-hidden">
+<section class="pt-24 pb-28 bg-gray-100 overflow-hidden">
     <div id="pricing" class="container mx-auto px-4">
-        <div class="max-w-xl mx-auto">
-            <h2 class="mb-5 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-800 text-center" contenteditable="false">Our Pricing</h2>
-            <p class="mb-18 text-gray-600">Choose the lifetime of your bait. Of course, no hidden or additional costs after buying the product. If you have any questions just contact us.</p>
+        <div class="max-w-md mx-auto mb-20">
+            <h2 class="mb-7 font-heading font-bold text-6xl sm:text-8xl xl:text-10xl text-gray-800 text-center" contenteditable="false">Our Pricing</h2>
+            <p class="mb-18 text-gray-600 text-center">Choose the lifetime of your bait. Of course, no hidden costs. After purchase you will receive an email with further information.</p>
+
         </div>
         <div class="flex flex-wrap items-center justify-center">
             <div class=" flex flex-wrap justify-between m-10 p-px bg-gradient-cyan rounded-10 shadow-7xl">
@@ -471,7 +472,7 @@
     <div id="contact" class="container mx-auto px-4">
         <div class="max-w-lg mx-auto text-center mb-14">
             <h2 class="text-gray-800 mb-5 font-heading font-semibold text-6xl sm:text-7xl">Get in touch</h2>
-            <p class="text-gray-700 text-lg">How can we help you? Whether you are a new or existing customer, you can contact us at any time.</p>
+            <p class="text-gray-600 text-lg">How can we help you? Whether you are a new or existing customer, you can contact us at any time.</p>
         </div>
         <form class="flex flex-wrap max-w-xl mx-auto -m-2.5">
             <div class="w-full p-2.5">
@@ -511,7 +512,7 @@
 </section>
 
 <!-- Footer -->
-<section class="pt-24 bg-gray-100 overflow-hidden">
+<section class="pt-24 pb-8 bg-gray-100 overflow-hidden">
     <div class="container mx-auto px-4">
         <ul class="flex flex-wrap justify-center text-center mb-10 font-heading text-5xl font-bold font-heading">
             <li><a class="close-menu  hover:text-gray-200" href="/">Loginbait</a></li>
