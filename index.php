@@ -10,15 +10,15 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3B1HD2GP6"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+        if (window.location.host === "loginbait.com" || window.location.host === "www.loginbait.com") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-        function gtag() {
-            dataLayer.push(arguments);
+            gtag('js', new Date());
+            gtag('config', 'G-L3B1HD2GP6');
         }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-L3B1HD2GP6');
     </script>
     <title>Loginbait.com</title>
     <meta charset="utf-8">
