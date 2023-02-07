@@ -1,13 +1,7 @@
-<?php
-
-/**
- * @file
- */
-?>
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
 <head>
-  <?php if (1): ?>
+  <?php if ($_SERVER['HTTP_HOST'] === 'www.loginbait.com' || $_SERVER['HTTP_HOST'] == 'loginbait.com'): ?>
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TF0MJ1JCF"></script>
       <script>
@@ -53,7 +47,6 @@
 <body class="antialiased bg-body text-body font-body">
 <!-- Navigation/Hero -->
 <div>
-    <h1><?php echo $_SERVER['HTTP_HOST'];?></h1>
     <section class="overflow-hidden" style="background: url(assets/images/hero/bg.png) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
