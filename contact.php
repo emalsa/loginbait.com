@@ -65,7 +65,7 @@ try {
       echo 'Thank you very much. We will get back to you.';
 
       $client = new GuzzleHttp\Client();
-      $response = $client->request('POST', 'https://honeypot-backend.localhost/api/spam?XDEBUG_SESSION_START=PHPSTORM', [
+      $response = $client->request('POST', 'https://honeypot-backend.nicastro.io/api/spam?XDEBUG_SESSION_START=PHPSTORM', [
         'form_params' => [
           'firstname' => $_REQUEST['firstname'],
           'lastname' => $_REQUEST['lastname'],
