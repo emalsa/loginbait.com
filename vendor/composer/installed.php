@@ -3,7 +3,7 @@
         'name' => 'daniele/loginbait.com',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '1ef70c56e7dcf315145f996a88db4edab27d8833',
+        'reference' => '4a5fddf4b3379e9d920b663b0da29502ad11038f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'daniele/loginbait.com' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '1ef70c56e7dcf315145f996a88db4edab27d8833',
+            'reference' => '4a5fddf4b3379e9d920b663b0da29502ad11038f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -35,6 +35,39 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../graham-campbell/result-type',
             'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'guzzlehttp/guzzle' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '8459341c16f96b9610dcdfe22bd3060d60c0da04',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
+            'aliases' => array(
+                0 => '7.5.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'guzzlehttp/promises' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'b94b2807d85443f9719887892882d0329d1e2598',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/promises',
+            'aliases' => array(
+                0 => '1.5.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'guzzlehttp/psr7' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'ddb46aeea6423f504136cff6989ae39064301eef',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../guzzlehttp/psr7',
+            'aliases' => array(
+                0 => '2.4.x-dev',
+            ),
             'dev_requirement' => false,
         ),
         'kriswallsmith/buzz' => array(
@@ -210,6 +243,15 @@
             'provided' => array(
                 0 => '1.0',
             ),
+        ),
+        'ralouphie/getallheaders' => array(
+            'pretty_version' => '3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ralouphie/getallheaders',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
             'pretty_version' => 'dev-main',

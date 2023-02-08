@@ -63,10 +63,21 @@ try {
       // Hello spammer!
       $spammer = TRUE;
       echo 'Thank you very much. We will get back to you.';
+
+      $client = new GuzzleHttp\Client();
+      $response = $client->request('POST', 'https://honeypot-backend.localhost/api/spam?XDEBUG_SESSION_START=PHPSTORM', [
+        'form_params' => [
+          'firstname' => $_REQUEST['firstname'],
+          'lastname' => $_REQUEST['lastname'],
+          'email' => $_REQUEST['email'],
+          'message' => $_REQUEST['message'],
+        ],
+        'verify' => FALSE,
+      ]);
       return;
     }
 
-    if (empty($_REQUEST['firstname']) || empty($_REQUEST['firstname']) || empty($_REQUEST['message'])) {
+    if (empty($_REQUEST['firstname']) || empty($_REQUEST['email']) || empty($_REQUEST['message'])) {
       echo '<div>Please fill all required fields.
 <p style="padding-top:10px;"><a style="color: #ec5353;text-decoration: underline" href="/#contact">Back to homepage</a></></div>';
       return;
@@ -99,7 +110,10 @@ try {
   }
 }
 catch (\Exception $exception) {
+
   echo 'error exception';
+  echo "\n\n";
+  echo $exception->getMessage();
 }
 
 
