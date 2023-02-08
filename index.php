@@ -54,7 +54,7 @@
 
 <!-- Navigation/Hero -->
 <div>
-    <section class="overflow-hidden" style="background: url(assets/images/hero/bg.png) no-repeat; background-size: cover;">
+    <section class="overflow-hidden" style="background: url(assets/images/hero/bg_compressed.jpg) no-repeat; background-size: cover;">
         <!-- Navigation -->
         <section>
             <div class="flex items-center justify-between px-8 py-5">
