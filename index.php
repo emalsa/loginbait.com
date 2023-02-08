@@ -796,10 +796,10 @@
                        name="firstname"
                        placeholder="Your name">
             </div>
-            <!--   style="position: absolute; left: -9999px"          -->
+            <!--             -->
             <div class="w-full p-2.5">
                 <!--                <label style="display: none" for="lastname">Lastname</label>-->
-                <input class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
+                <input style="position: absolute; left: -9999px" class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
                        name="lastname"
                        tabindex="-1"
