@@ -523,7 +523,7 @@
                         </svg>
                     </button>
                     <div class="panel">
-                        <p class="max-w-3xl mt-4 text-base text-gray-700">As stated in the "Pricing" section, the mentioned price is a one-time fee valid for the next 20 years, as long as our
+                        <p class="max-w-3xl mt-4 text-base text-gray-700">As stated in the "Pricing" section, the mentioned price is a one-time payment and valid for lifetime, as long as our
                             service remains available. New features will typically be included in this plan, but we reserve the right to deviate from this policy in exceptional circumstances. In such
                             cases, we will offer a fair pricing plan for those who wish to take advantage of the new feature.
                         </p>
@@ -716,7 +716,7 @@
                 <div class="px-20 py-18 md:px-26 md:py-24 text-center rounded-10 bg-white">
                     <p class="mb-7 font-heading text-xs font-semibold text-gray-900 uppercase tracking-px" contenteditable="false">LIFETIME</p>
                     <h3 class="mb-4 font-heading font-semibold text-5xl text-gray-900" contenteditable="false">$69 forever</h3>
-                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for 20 years.</p>
+                    <p class="mb-10 text-xl text-gray-600" contenteditable="false">Pay once for a lifetime.</p>
                     <a href="https://buy.stripe.com/eVa17n4GI5ddgq4dQR" target="_blank">
                         <button class="close-menu group relative mb-6 px-16 py-3.5 font-heading bg-gray-800 text-base font-bold text-white overflow-hidden rounded-md">
                             <div class="absolute top-0 left-0 transform -translate-x-full group-hover:-translate-x-0 h-full w-full transition ease-in-out duration-500 bg-gradient-cyan"></div>
