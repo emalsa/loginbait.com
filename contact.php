@@ -59,7 +59,7 @@ $spammer = FALSE;
 try {
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Require the honeypot field to be present but empty
-    if (!isset($_REQUEST['lastname']) || !empty($_REQUEST['lastname'])) {
+    if (!empty($_REQUEST['lastname'])) {
       // Hello spammer!
       $spammer = TRUE;
       echo 'Thank you very much. We will get back to you.';
