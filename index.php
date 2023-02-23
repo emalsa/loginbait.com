@@ -9,7 +9,7 @@
 <head>
   <?php if ($_SERVER['HTTP_HOST'] === 'www.loginbait.com' || $_SERVER['HTTP_HOST'] == 'loginbait.com') : ?>
       <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TF0MJ1JCF"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KB4CGV7KP4"></script>
       <script>
           window.dataLayer = window.dataLayer || [];
 
@@ -18,7 +18,7 @@
           }
 
           gtag('js', new Date());
-          gtag('config', 'G-8TF0MJ1JCF');
+          gtag('config', 'G-KB4CGV7KP4');
       </script>
   <?php else : ?>
       <!-- Google tag (gtag.js) -->
@@ -468,37 +468,37 @@
                             unauthorized user accessing your mailbox is likely to come across it.</p>
                     </div>
                 </li>
-<!--                <li class=" px-6 py-8 bg-gray-50 rounded-xl">-->
-<!--                    <button class="accordion w-full flex justify-between items-center text-left font-semibold font-heading">-->
-<!--                        <span class="text-xl font-semibold font-heading">Do you have some examples of where and how to best set the bait?</span>-->
-<!--                        <svg class="closed flex-shrink-0" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--                            <path fill-rule="evenodd"-->
-<!--                                  clip-rule="evenodd"-->
-<!--                                  d="M0.750214 10C0.750214 15.108 4.89121 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89121 0.75 0.750214 4.892 0.750214 10Z"-->
-<!--                                  stroke="#838EA4"-->
-<!--                                  stroke-width="1.5"-->
-<!--                                  stroke-linecap="round"-->
-<!--                                  stroke-linejoin="round"></path>-->
-<!--                            <path d="M6.52902 8.55774L10 12.0437L13.471 8.55774" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>-->
-<!--                        </svg>-->
-<!--                        <svg class="opened hidden flex-shrink-0" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--                            <path fill-rule="evenodd"-->
-<!--                                  clip-rule="evenodd"-->
-<!--                                  d="M19.2498 10C19.2498 4.892 15.1088 0.75 9.99979 0.75C4.89179 0.75 0.749786 4.892 0.749786 10C0.749786 15.108 4.89179 19.25 9.99979 19.25C15.1088 19.25 19.2498 15.108 19.2498 10Z"-->
-<!--                                  stroke="#45C1FF"-->
-<!--                                  stroke-width="1.5"-->
-<!--                                  stroke-linecap="round"-->
-<!--                                  stroke-linejoin="round"></path>-->
-<!--                            <path d="M13.471 11.4423L9.99998 7.95626L6.52898 11.4423" stroke="#45C1FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>-->
-<!--                        </svg>-->
-<!--                    </button>-->
-<!--                    <div class="panel">-->
-<!--                        <p class="max-w-3xl mt-4 text-base text-gray-700">There are plenty of good places and examples. You can place it on the computer or server as in most cases. However, also-->
-<!--                            physically there are also some examples below</p>-->
-<!--                        <p class="mt-2">On your computer </p>-->
-<!--                        <p class="mt-2">Physically </p>-->
-<!--                    </div>-->
-<!--                </li>-->
+                <!--                <li class=" px-6 py-8 bg-gray-50 rounded-xl">-->
+                <!--                    <button class="accordion w-full flex justify-between items-center text-left font-semibold font-heading">-->
+                <!--                        <span class="text-xl font-semibold font-heading">Do you have some examples of where and how to best set the bait?</span>-->
+                <!--                        <svg class="closed flex-shrink-0" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+                <!--                            <path fill-rule="evenodd"-->
+                <!--                                  clip-rule="evenodd"-->
+                <!--                                  d="M0.750214 10C0.750214 15.108 4.89121 19.25 10.0002 19.25C15.1082 19.25 19.2502 15.108 19.2502 10C19.2502 4.892 15.1082 0.75 10.0002 0.75C4.89121 0.75 0.750214 4.892 0.750214 10Z"-->
+                <!--                                  stroke="#838EA4"-->
+                <!--                                  stroke-width="1.5"-->
+                <!--                                  stroke-linecap="round"-->
+                <!--                                  stroke-linejoin="round"></path>-->
+                <!--                            <path d="M6.52902 8.55774L10 12.0437L13.471 8.55774" stroke="#838EA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>-->
+                <!--                        </svg>-->
+                <!--                        <svg class="opened hidden flex-shrink-0" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+                <!--                            <path fill-rule="evenodd"-->
+                <!--                                  clip-rule="evenodd"-->
+                <!--                                  d="M19.2498 10C19.2498 4.892 15.1088 0.75 9.99979 0.75C4.89179 0.75 0.749786 4.892 0.749786 10C0.749786 15.108 4.89179 19.25 9.99979 19.25C15.1088 19.25 19.2498 15.108 19.2498 10Z"-->
+                <!--                                  stroke="#45C1FF"-->
+                <!--                                  stroke-width="1.5"-->
+                <!--                                  stroke-linecap="round"-->
+                <!--                                  stroke-linejoin="round"></path>-->
+                <!--                            <path d="M13.471 11.4423L9.99998 7.95626L6.52898 11.4423" stroke="#45C1FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>-->
+                <!--                        </svg>-->
+                <!--                    </button>-->
+                <!--                    <div class="panel">-->
+                <!--                        <p class="max-w-3xl mt-4 text-base text-gray-700">There are plenty of good places and examples. You can place it on the computer or server as in most cases. However, also-->
+                <!--                            physically there are also some examples below</p>-->
+                <!--                        <p class="mt-2">On your computer </p>-->
+                <!--                        <p class="mt-2">Physically </p>-->
+                <!--                    </div>-->
+                <!--                </li>-->
                 <li id="faq-lifetime" class=" px-6 py-8 bg-gray-50 rounded-xl">
                     <button class="accordion w-full flex justify-between items-center text-left font-semibold font-heading">
                         <span class="text-xl font-semibold font-heading">What exactly do I get in the lifetime plan?</span>
@@ -800,7 +800,8 @@
             <!--             -->
             <div class="w-full p-2.5">
                 <!--                <label style="display: none" for="lastname">Lastname</label>-->
-                <input style="position: absolute; left: -9999px" class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
+                <input style="position: absolute; left: -9999px"
+                       class="w-full px-5 py-4 text-gray-700 text-base bg-transparent border border-gray-800 outline-none focus:ring-2 focus:ring-indigo-500 placeholder-gray-500 rounded"
                        type="text"
                        name="lastname"
                        tabindex="-1"
